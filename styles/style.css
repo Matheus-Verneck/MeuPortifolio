@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 35px;
+    font-family: "Space Grotesk", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    animation: fade-in 1.5s ease-out;
+  }
+
+  .diferent {
+    color: #8e0aaf;
+  }
+
+  .estagio {
+    color: #b922df;
+    font-size: small;
+    text-align: center;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    padding: 7px;
+    text-align: center;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul li:hover a {
+    color: #8e0aaf;
+  }  
+  
+  section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .container h2 {
+    margin-top: 10px;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .nome {
+    font-family: "Space Grotesk", sans-serif;
+    border-right: 1px solid;
+    width: 35ch;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    animation: typing 2s steps(35), blinking 0.7s infinite step-end alternate;
+  }
+
+  @keyframes typing {
+    from {
+        width: 0;
+    } to {
+        width: 35ch;
+    }
+  }
+
+  @keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+  }
+
+  .sobre {
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    letter-spacing: 2.5px;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+    padding: 10px;
+    background-color: #8e0aaf;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #b922df;
+  }
+
+  #description {
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+  #contact p {
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 25px;
+    }
+  
+    .container {
+      padding: 0 10px;
+    }
+  
+    .container h2 {
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+  
+    .container p {
+      text-align: center;    
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .project h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+  
+    .project p {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+  
+    .btn {
+      padding: 8px 16px;
+    }
+  }
+  
