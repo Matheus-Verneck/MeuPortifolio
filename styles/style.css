@@ -32,12 +32,6 @@
   .diferent {
     color: #8e0aaf;
   }
-
-  .estagio {
-    color: #b922df;
-    font-size: small;
-    text-align: center;
-  }
   
   @keyframes fade-in {
     0% {
@@ -50,6 +44,12 @@
     }
   }
   
+  .estagio {
+    color: #b922df;
+    font-size: small;
+    text-align: center;
+  }
+
   nav ul {
     list-style: none;
     display: flex;
@@ -93,15 +93,16 @@
   }
 
   .nome {
+    margin: 0 auto;
     font-family: "Space Grotesk", sans-serif;
     border-right: 1px solid;
-    width: 35ch;
+    width: 34ch;
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 2.5px;
-    animation: typing 2s steps(35), blinking 0.7s infinite step-end alternate;
+    animation: typing 2s steps(34), blinking 0.7s infinite step-end alternate;
   }
 
   @keyframes typing {
