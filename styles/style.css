@@ -88,7 +88,8 @@
   }
   
   .container p {
-    font-size: 18px;
+    font-size: 16px;
+    text-align: center;
     margin-bottom: 30px;
   }
 
@@ -96,13 +97,11 @@
     margin: 0 auto;
     font-family: "Space Grotesk", sans-serif;
     border-right: 1px solid;
-    width: 34ch;
+    width: 30ch;
     white-space: nowrap;
     overflow: hidden;
-    text-align: center;
-    font-size: 18px;
     letter-spacing: 2.5px;
-    animation: typing 2s steps(34), blinking 0.7s infinite step-end alternate;
+    animation: typing 2s steps(30), blinking 0.7s infinite step-end alternate;
   }
 
   @keyframes typing {
